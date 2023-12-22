@@ -1,5 +1,14 @@
+@font-face {
+  font-family: linja-pona;
+  src: url("./fonts/linja-pona-4.9.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   font-size: 2rem;
+  font-family: linja-pona;
+  font-feature-settings: "liga" 1, "clig" 1, "calt" 1, "kern" 1, "mark" 1;
+  text-rendering: optimizeLegibility;
 }
 
 h1 {
